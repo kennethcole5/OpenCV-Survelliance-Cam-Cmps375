@@ -80,7 +80,7 @@ while True:
             #id = names[id]
             if(id==4):
                 id = names[4]
-                sendTo = 'kennyrcole@gmail.com'
+                sendTo = 'kenneth.cole@selu.edu'
                 emailSubject = "Pao has been detected!!!"
                 emailContent = "Pao was detected at: " +    time.ctime()
                 sender.sendmail(sendTo, emailSubject, emailContent)
